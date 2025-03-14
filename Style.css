@@ -1,0 +1,47 @@
+::-webkit-scrollbar{display: none;}
+.Fondo{
+    background-color: rgb(34, 34, 143);
+    overflow: hidden;
+}
+div{
+    background-color: gray;
+    width: 400px;
+    height: 260px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 25%;
+}
+form{
+    background-color: gray;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+}
+.caja{
+    color: black;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    height: 40px; 
+    width: 300px;
+    border: 0;
+    padding: 0;
+}
+.caja2{
+    padding: 0;
+    border: 0;
+    height: 40px;
+    width: 130px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+.barra{
+    width:auto;
+    height: 40px;
+    border-radius: 0%;
+    border: 0;
+    margin: 0;
+    margin-top:40vh
+}
