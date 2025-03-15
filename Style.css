@@ -9,12 +9,12 @@ div{
     margin: auto;
     margin-top: 30vh;
     border-radius: 25%;
-    margin-bottom: 30vh;
+    margin-bottom: 25vh;
 }
 form{
     background-color: gray;
     width: 300px;
-    height: 200px;
+    height: 20vh;
     margin: auto;
     margin-top: 5vh;
 }
