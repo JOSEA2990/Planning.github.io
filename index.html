@@ -11,8 +11,14 @@
         <form>
             <input class ="caja" type ="text" required name="Username" minlength="3">
             <input class ="caja" type ="password" placeholder="*******">
-            <input class ="caja2" type ="submit"  value="Acceder">
-            <a href="index2.html" title="Enlace">Enlace</a>
+            
+            <button class="caja2" id="cambiarPestaña">Acceder</button>
+            <script>
+                document.getElementById('cambiarPestaña').addEventListener('click', function() {
+                    window.open('index2.html');
+                    window.close('index.html');
+                });
+            </script>
         </form>
     </div>
     <div class ="barra">EMPRESA</div>
