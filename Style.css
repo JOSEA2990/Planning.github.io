@@ -4,11 +4,12 @@
 div{
     background-color: gray;
     width: 400px;
-    height: 260px;
+    height: 30vh;
     padding: 15px;
     margin: auto;
     margin-top: 30vh;
     border-radius: 25%;
+    margin-bottom: 30vh;
 }
 form{
     background-color: gray;
@@ -41,5 +42,4 @@ form{
     border-radius: 0%;
     border: 0;
     margin: 0;
-    margin-top:30vh
 }
