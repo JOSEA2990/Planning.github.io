@@ -7,9 +7,16 @@
     <Link rel="stylesheet" href="Style.css">
 </head>
 <body class="Fondo">
-    <div>
-        <a class="caja" href="index.html" title="Regresar">Regresar</a>
+    <div class="barraS">
+            <button class="Botones" type="button"id="Volver">Regresar</button>
+            <script>
+                document.getElementById('Volver').addEventListener('click', function() {
+                window.open('index.html');
+                window.close('index2.html');
+                });
+            </script>
     </div>
-    <div class ="barra">EMPRESA</div>
+    <div></div>
+    <div class ="barraI">COMPAÑIA V.0.1</div>
 </body>
 </html>
