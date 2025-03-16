@@ -8,7 +8,24 @@
 </head>
 <body class="Fondo">
     <div class="barraS">
-            <button class="Botones" type="button"id="Volver">Regresar</button>
+            <button class="Botones" type="button"id="Proyectos">Proyectos</button>
+            <div class="dropdown-content" id="dropdownMenu">
+                <a href="#">Proyecto1</a>
+                <a href="#">Proyecto2</a>
+                <a href="#">Proyecto3</a>
+            </div>
+            <script>
+                document.getElementById('Proyectos').addEventListener('click', function() {
+                var dropdownMenu = document.getElementById('dropdownMenu');
+                if (dropdownMenu.style.display === 'block') {
+                dropdownMenu.style.display = 'none';
+                } else {
+                dropdownMenu.style.display = 'block';
+                }
+                });
+            </script>
+
+            <button class="Botones" type="button"id="Volver">Salir</button>
             <script>
                 document.getElementById('Volver').addEventListener('click', function() {
                 window.open('index.html');
