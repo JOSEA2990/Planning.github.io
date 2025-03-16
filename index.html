@@ -10,17 +10,25 @@
     <div>
         <form>
             <input class ="caja" type ="text" required name="Username" minlength="3">
+
             <input class ="caja" type ="password" placeholder="*******">
             
             <button class="caja2" id="cambiarPestaña">Acceder</button>
-            <script>
-                document.getElementById('cambiarPestaña').addEventListener('click', function() {
-                    window.open('index2.html');
-                    window.close('index.html');
-                });
-            </script>
+            <script src="script.js"></script>
+            
         </form>
     </div>
     <div class ="barra">EMPRESA</div>
+
+    <div id="pantalla1">
+        <h2>HOLA</h2>
+        <button id="cambiarPantalla">Ir a Pantalla 2</button>
+    </div>
+    <div id="pantalla2" style="display: none;">
+        <h2>BIEN</h2>
+        <button id="volverPantalla">Volver a Pantalla 1</button>
+    </div>
+    <script src="script.js"></script>
+
 </body>
 </html>
